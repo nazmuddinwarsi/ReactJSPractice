@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Mam from './App';
+import App,{App2}from './App';
 import User from './User';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
@@ -11,7 +11,9 @@ let a="Amir";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Mam/>
+
+  <App/>
+  <App2/>
   {/* <Header name={a} age="29"/>
   <Header name="Adil" age="29"/>
     <User />
