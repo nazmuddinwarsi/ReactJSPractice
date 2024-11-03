@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+
 
 export default class MyClass extends Component {
   render() {
@@ -10,5 +12,8 @@ export default class MyClass extends Component {
     )
   }
 }
-
+MyClass.PropTypes={
+    name: PropTypes.string,
+    age : PropTypes.number,
+}
  
