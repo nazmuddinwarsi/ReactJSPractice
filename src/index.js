@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App,{App2}from './App';
+import MyClass from './MyClass';
 import User from './User';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
@@ -12,8 +13,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-  <App/>
-  <App2/>
+  {/* <App/>
+  <App2/> */}
+  <MyClass/>
   {/* <Header name={a} age="29"/>
   <Header name="Adil" age="29"/>
     <User />
